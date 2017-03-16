@@ -1,0 +1,25 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "f9",
+        "command": "workbench.action.tasks.test"
+    },
+    {
+        "key": "ctrl+f9",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "workbench.action.tasks.terminate",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "ctrl+win+c",
+        "command": "workbench.action.tasks.terminate"
+    },
+    {
+        "key": "win+v",
+        "command": "pasteAndIndent.action",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]

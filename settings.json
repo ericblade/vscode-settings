@@ -1,0 +1,46 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
+    "extensions.autoUpdate": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.acceptSuggestionOnEnter": false,
+    "editor.rulers": [
+        100
+    ],
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.renderControlCharacters": true,
+    "editor.minimap.enabled": true,
+    "editor.dragAndDrop": true,
+    "window.reopenFolders": "all",
+    "window.restoreFullscreen": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "files.trimTrailingWhitespace": true,
+    "html.format.indentInnerHtml": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
+    "javascript.validate.enable": true,
+    "eslint.autoFixOnSave": false,
+    "editor.snippetSuggestions": "top",
+    "gitProjectManager.baseProjectsFolders": [
+        "c:\\dropbox\\src\\",
+        "c:\\dropbox\\lg\\",
+        "d:\\dropbox\\lg\\",
+        "d:\\dropbox\\src\\",
+        "d:\\src\\"
+    ],
+    "gitProjectManager.ignoredFolders": [
+        "node_modules",
+        "isis",
+        "webkit"
+    ],
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "gitProjectManager.maxDepthRecursion": 1,
+    "window.zoomLevel": 0,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator} - VSC",
+    "workbench.iconTheme": "vscode-icons"
+}

@@ -1,0 +1,97 @@
+{
+/*
+	 // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"Enact New Kind File": {
+		"prefix": "nkf",
+		"body": [
+			"import React from 'react';",
+			"import { kind } from '@enact/core/kind';",
+			"import css from './$1.less';",
+			"",
+			"export default kind({",
+			"    name: '$1',",
+			"    styles: {",
+        	"        css,",
+        	"        className: css.$2,",
+			"    },",
+			"    render() {",
+			"        return (",
+			"            $0",
+			"        );",
+			"    },",
+			"});",
+			""
+		],
+		"description": "Enact - New Kind File"
+	},
+	"Enact New Kind In Current File": {
+		"prefix": "newkind",
+		"body": [
+			"const $1 = kind({",
+    		"    name: '$1',",
+    		"    styles: { css },",
+    		"    render() {",
+        	"        return (",
+            "            $0",
+        	"        );",
+    		"    },",
+			"});"
+		],
+		"description": "Enact - New Kind In Current File"
+	},
+	"Console Warning": {
+		"prefix": "conwarn",
+		"body": [
+			"console.warn(`**** $1`);",
+			"$0"
+		]
+	},
+	"ES6 Import": {
+		"prefix": "imp",
+		"body": [
+			"import $1 from '$2';",
+			"$0"
+		]
+	},
+	"New Google Voice Post Request": {
+		"prefix": "gvpost",
+		"body": [
+			"// TODO: Not tested.",
+			"",
+			"const postRequest = require('./postRequest');",
+			"const methodUris = require('./uris').methodUris;",
+			"",
+			"const $1 = ($0tokens, callback) => {",
+			"    const params = {",
+			"        $0",
+			"    };",
+			"    postRequest(",
+			"        methodUris.$1,",
+			"        {",
+			"            params,",
+			"            options: {",
+			"                tokens,",
+			"                requestType: 'document',",
+			"            },",
+			"        },",
+			"        callback",
+			"    );",
+			"};",
+			"",
+			"module.exports = $1;",
+			""
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "extensions": [
+        "MattiasPernhult.vscode-todo",
+        "PeterJausovec.vscode-docker",
+        "Rubymaniac.vscode-paste-and-indent",
+        "Unity.unity-debug",
+        "bbenoist.QML",
+        "brpaz.file-templates",
+        "christian-kohler.path-intellisense",
+        "dbaeumer.vscode-eslint",
+        "donjayamanne.githistory",
+        "donjayamanne.python",
+        "felipecaputo.git-project-manager",
+        "golf1052.code-sync",
+        "jameshrisho.redux-snippets",
+        "joelday.docthis",
+        "ms-vscode.PowerShell",
+        "ms-vscode.cpptools",
+        "ms-vscode.csharp",
+        "msjsdiag.debugger-for-chrome",
+        "robertohuertasm.vscode-icons"
+    ]
+}
